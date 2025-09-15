@@ -1,0 +1,4 @@
+[[context-view]]
+== Vista de Contexto
+La vista de contexto muestra el sistema como una caja negra ...
+image::LiftCatLogo.png[Context Diagram width=600, align=center]

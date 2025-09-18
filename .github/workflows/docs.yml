@@ -21,7 +21,7 @@ jobs:
       - run: mkdir -p build
       - run: asciidoctor -D build docs/index.adoc
       #PDF
-      - run: asciidoctor-pdf -0 build/index.pdf docs/index.adoc
+      - run: asciidoctor-pdf -o build/index.pdf docs/index.adoc
       #Copiar recursos estáticos
       - name: Copy static assets
         run: |
